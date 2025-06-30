@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+.font-sanskrit {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+@font-face {
+  font-family: 'FauxSanskrit';
+  src: url('src/assets/fonts/FauxSanskrit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
