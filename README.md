@@ -1,12 +1,31 @@
-# React + Vite
+# MEDHAVI – Modular Evolutionary Digital Learning Heuristic Algorithmic Virtual Intelligence
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Medhavi** is a full-stack AI-integrated platform that brings together intelligent services for **Education**, **Healthcare**, and **Creative AI**. Designed as a final-year BTech project, this modular application demonstrates how artificial intelligence can enhance accessibility, creativity, and health awareness for users of all ages.
 
-Currently, two official plugins are available:
+## 🔍 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📘 Education Module
+- Chapter, essay, and quiz generation using **Google Gemini API**
+- Mock test and aptitude generator
+- Auto-generated report card feedback
+- Sticky notes, file uploads, and text-to-speech support
 
-## Expanding the ESLint configuration
+### 🩺 Healthcare Module
+- Symptom checker and disease/drug info via **AIML API**
+- **Medical image analysis** (e.g., X-rays, rashes) using REST APIs
+- Vitals-based health status predictions (normal/warning/alert)
+- Personalized diet planning
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Creative AI Module
+- Real-time image transformation (e.g., dog → cat, sketch → realistic photo)
+- Upload, preview, and download workflow using third-party APIs
+
+## 🛠️ Tech Stack
+
+**Frontend**: React.js, Tailwind CSS  
+**Backend**: Node.js, Express.js  
+**APIs**: Google Gemini API, AIML API, REST APIs  
+**Other Tools**: Multer, Web Speech API
+
+## 📂 Project Structure
+
